@@ -34,3 +34,6 @@ input[type=text]:focus {
   padding-bottom: 32px;
   padding-top: 32px;
 }
+h4 a{
+  color: black;
+}
