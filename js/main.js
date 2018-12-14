@@ -9,7 +9,6 @@ $(document).ready(function(){
 
 function sortByName(){
   list = document.getElementsByClassName("card-title"); // get all card-titles
-  card = document.getElementsByClassName("card"); // get all cards
   cardcol = document.getElementsByClassName("col-sm-6 col-md-4 col-lg-4");
   switchcount = 0;
   switching = true;
