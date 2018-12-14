@@ -12,7 +12,7 @@ input[type=text] {
   
   /* When the input field gets focus, change its width to 100% */
 input[type=text]:focus {
-    width: 100%;
+    width: 90%;
   }
 
 .card{
@@ -36,4 +36,9 @@ input[type=text]:focus {
 }
 h4 a{
   color: black;
+}
+
+#sortbtn{
+  float: right;
+  margin-top: -5px;
 }
