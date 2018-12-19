@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 function sortByName(){
   list = document.getElementsByClassName("card-title"); // get all card-titles
-  cardcol = document.getElementsByClassName("col-sm-6 col-md-4 col-lg-4"); // get columns for sorting
+  cardcol = document.getElementsByClassName("col-md-4"); // get columns for sorting
   switchcount = 0;
   switching = true;
   dir = "asc";
@@ -41,4 +41,8 @@ function sortByName(){
     }
   }
 }
+}
+
+function newName(){
+  $(".row").append('<div class="col-md-4"><div class="card"><img src="https://www.codegorilla.nl/wp-content/uploads/2017/10/Tekengebied-2-288x300.png" alt="" class="card-image-top"><div class="card-body"><h4 class="card-title">' + $("#newName").val() + '</h4><p class="card-text">' + $("#subtext").val() +'</p></div></img></div></div>');
 }
