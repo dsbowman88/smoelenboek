@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 function sortByName(){
   list = document.getElementsByClassName("card-title"); // get all card-titles
-  cardcol = document.getElementsByClassName("col-sm-6 col-md-4 col-lg-4");
+  cardcol = document.getElementsByClassName("col-sm-6 col-md-4 col-lg-4"); // get columns for sorting
   switchcount = 0;
   switching = true;
   dir = "asc";
